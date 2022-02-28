@@ -11,7 +11,7 @@ exports.register = (req, res) => {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     email: req.body.email,
-    isAdmin: false,
+    isAdmin: rec.body.isAdmin,
     password: hashedPassword,
   });
   user
