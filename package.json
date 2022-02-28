@@ -25,9 +25,10 @@
         "serve-favicon": "^2.5.0",
         "stripe": "^8.197.0",
         "nodemon": "^2.0.7",
-        "babel-cli": "6.26.0",
+        "babel-cli": "^6.26.0",
         "babel-preset-env": "^1.7.0"
 
     }
+    
     
 }
